@@ -1,0 +1,14 @@
+---
+name: practical-08
+break: true
+indent: 4
+---
+writing:
+    reflection.md:
+        ConfirmFileExists
+        CountFileWords --count 300
+        MatchFileFragment --fragment "TODO" --count 0 --exact
+        CountMarkdownTags --tag "heading" --count 3
+        CountFileParagraphs --count 3
+
+CountCommits --count 4
